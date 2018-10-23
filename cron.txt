@@ -1,0 +1,15 @@
+#automated switches
+10 12 * * Tue,Wed automate.sh -i 1 -v 1 >/dev/null 2>&1
+30 12 * * Tue,Wed automate.sh -i 1 -v 0 >/dev/null 2>&1
+20 12 * * Thu automate.sh -i 1 -v 1 >/dev/null 2>&1
+30 12 * * Thu automate.sh -i 1 -v 0 >/dev/null 2>&1
+20 12 * * Thu automate.sh -i 1 -v  -b  >/dev/null 2>&1
+30 12 * * Thu automate.sh -i 1 -v  -b 0 >/dev/null 2>&1
+20 12 * * Thu automate.sh -i 1 -v  -b  >/dev/null 2>&1
+30 12 * * Thu automate.sh -i 1 -v  -b 0 >/dev/null 2>&1
+20 12 * * Thu automate.sh -i 1 -v  -b  >/dev/null 2>&1
+30 12 * * Thu automate.sh -i 1 -v  -b 0 >/dev/null 2>&1
+20 12 * * Thu automate.sh -i 1 -v  -b  >/dev/null 2>&1
+30 12 * * Thu automate.sh -i 1 -v  -b 0 >/dev/null 2>&1
+20 12 * * Thu,Fri automate.sh -i 1 -v 194EE2,658500,331D0A,720860,45FF40 -b 1 >/dev/null 2>&1
+30 12 * * Thu,Fri automate.sh -i 1 -v 194EE2,658500,331D0A,720860,45FF40 -b 0 >/dev/null 2>&1
