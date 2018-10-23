@@ -7,9 +7,6 @@
 
 <div class="tabs">
     <ul class="tab-links">
-        <li><a href="index.php">Camera</a></li>
-        <li ><a href="index_switch.php">Switch</a></li>
-	<li><a href="index_automate.php">Switch Automation</a></li>
 	<li class="active"><a href="index_rgb.php">RGB Light</a></li>
 	<li><a href="index_rgb_auto.php">RGB Light Automation</a></li>
     </ul>
