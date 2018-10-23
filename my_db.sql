@@ -16,30 +16,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `cam_motion`
---
-
-DROP TABLE IF EXISTS `cam_motion`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `cam_motion` (
-  `id` int(11) DEFAULT NULL,
-  `name` varchar(20) DEFAULT NULL,
-  `value` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `cam_motion`
---
-
-LOCK TABLES `cam_motion` WRITE;
-/*!40000 ALTER TABLE `cam_motion` DISABLE KEYS */;
-INSERT INTO `cam_motion` VALUES (1,'Cam1',0),(2,'Cam2',0),(3,'Cam3',0),(4,'Cam4',0);
-/*!40000 ALTER TABLE `cam_motion` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `led_rgb`
 --
 
