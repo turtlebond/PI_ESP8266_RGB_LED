@@ -10,8 +10,8 @@ c=common cathode
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
 
-char ssid[] = "MogshaNet";  //  your network SSID (name)
-char pass[] = "0165123135abc";       // your network password
+char ssid[] = "SSID";  //  your network SSID (name)
+char pass[] = "PASSWD";       // your network password
 char led_common;
 
 
